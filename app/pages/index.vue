@@ -22,9 +22,9 @@ import { ref, watch, computed } from 'vue'
 
 
 const texts = [
-  "Oluwabukola.",
-  "a Frontend Web Developer",
-  "a Creative Problem Solver"
+  "Oluwabukola. ",
+  "a Frontend Web Developer. ",
+  "a Creative Problem Solver. "
 ]
 
 const displayText = ref('')

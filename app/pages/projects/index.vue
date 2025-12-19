@@ -58,14 +58,19 @@
 <script setup>
 import { ref } from 'vue'
 import ProjectCard from "@/components/card.vue"
-
+import img1 from "@/assets/images/bookie.png"
+import img2 from "@/assets/images/fabel craft.png"
+import img3 from "@/assets/images/funiro.png"
+import img4 from "@/assets/images/nuxt store.png"
+import img5 from "@/assets/images/artsy.png"
+import img6 from "@/assets/images/haven.png"
 const projects = [
-  { name: "Task Manager", tech: "Vue + Firebase", image: "https://images.unsplash.com/photo-1557821552-17105176677", github: "https://github.com/olagunju-oluwabukola/story-forge", demo:"https://story-forge-eta.vercel.app/" },
-  { name: "Weather App", tech: "React + API", image: "https://images.unsplash.com/photo-1592210454359-9043f067919b", github: "", demo:"" },
-  { name: "Blog CMS", tech: "WordPress", image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643", github: "", demo:"" },
-  { name: "Portfolio", tech: "Nuxt", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", github: "", demo:"" },
-  { name: "Chat App", tech: "Vue + Socket", image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da", github: "", demo:""},
-  { name: "E-learning", tech: "React + Node", image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8", github: "", demo:""},
+  { name: "Bookie", tech: "Nuxt.js + Firebase + Tailwind", image: img1, github: "https://github.com/olagunju-oluwabukola/Bookie", demo:"https://bookie-gold-two.vercel.app/" },
+  { name: "Fable Craft", tech: "Next.js + Grok AI + Tailwind", image: img2,  github: "https://github.com/olagunju-oluwabukola/story-forge", demo:"https://story-forge-eta.vercel.app/" },
+  { name: "Furniro", tech: "Nuxt.js + Tailwind ", image:img3, github: "https://github.com/olagunju-oluwabukola/Furniro", demo:"https://furniro-ten-taupe.vercel.app/" },
+  { name: "Nuxt Store", tech: "Nuxt + Tailwind", image: img4, github: "https://github.com/olagunju-oluwabukola/NuxtStore", demo:"https://nuxt-store-tawny.vercel.app/" },
+  { name: "Artsy", tech: "Vue + Tailwind", image: img5, github: "https://github.com/olagunju-oluwabukola/Artsy", demo:"https://artsy-rhq2.vercel.app/"},
+  { name: "Harven", tech: "React + Tailwind ", image: img6, github: "https://github.com/olagunju-oluwabukola/Harven-Estates", demo:"https://github.com/olagunju-oluwabukola/Harven-Estates"},
 ]
 
 

@@ -29,10 +29,20 @@ import ProjectsPage from './pages/projects/index.vue'
 import ToolsPage from './pages/Tools/index.vue'
 import EducationPage from './pages/Education/index.vue'
 
+useHead({
+    title: 'Oluwabukola | Frontend Developer',
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/jpg',
+      href: '/favicon.jpg'
+    }
+  ]
+})
+
+
 const isLoading = ref(true)
 const currentPage = ref('/')
-
-
 onMounted(() => {
   setTimeout(() => {
     isLoading.value = false

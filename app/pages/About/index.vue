@@ -12,8 +12,7 @@
 continuous learning.
           </p>
           <p class="text-slate-300 leading-relaxed">
-          I'm adept at collaborating with cross-functional teams to transform design mockups
-into functional and scalable code.
+         I collaborate effectively with cross-functional teams to transform design mockups into scalable, maintainable, and functional code.
           </p>
         </div>
 
@@ -26,19 +25,19 @@ into functional and scalable code.
             </li>
             <li class="flex items-start gap-3">
               <span class="text-blue-400 mt-1">▹</span>
-              <span>Contribute to code and participate in code reviews</span>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="text-blue-400 mt-1">▹</span>
-              <span>Create seamless user experiences with Vue.js and React</span>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="text-blue-400 mt-1">▹</span>
               <span>Optimize website performance and SEO</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-blue-400 mt-1">▹</span>
+              <span>Write clean, maintainable code and participate in code reviews</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-blue-400 mt-1">▹</span>
+              <span>Create seamless user experiences using Vue.js and React</span>
             </li>
              <li class="flex items-start gap-3">
               <span class="text-blue-400 mt-1">▹</span>
-              <span>figma to code conversion</span>
+              <span>Apply systems thinking to translate Figma designs into scalable, reusable UI components</span>
             </li>
           </ul>
         </div>

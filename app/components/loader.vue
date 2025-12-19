@@ -28,7 +28,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import logo from "../assets/images/IMG_20240812_162829.jpg"
+import logo from "../../public/favicon.jpg"
 
 const show = ref(true)
 const visible = ref(true)
