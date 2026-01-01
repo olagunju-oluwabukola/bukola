@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50">
+  <div class="fixed bottom-2 left-1/2 transform -translate-x-1/2 z-50">
     <div class="bg-slate-800/80 backdrop-blur-lg rounded-full px-4 py-3 shadow-2xl border border-slate-700">
       <div class="flex items-center gap-2">
         <button

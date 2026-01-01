@@ -3,7 +3,7 @@
     <div class="max-w-5xl mx-auto">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 text-center">Education</h1>
       <p class="text-slate-300 text-center mb-12 max-w-2xl mx-auto">
-        My academic background and professional certifications
+        My academic background and certifications
       </p>
 
       <div class="mb-12">
