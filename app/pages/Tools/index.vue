@@ -21,8 +21,8 @@
 import ToolCategory from '../../components/category.vue'
 
 const toolCategories = [
-  { category: 'Languages', tools: [ 'JavaScript', 'TypeScript','Flutter (learning)'] },
-  { category: 'Frameworks & Libraries', tools: ['Vue.js', 'React', 'Nuxt.js', 'Next.js', 'Tailwind CSS', 'Bootstrap'] },
+  { category: 'Languages', tools: [ 'JavaScript', 'TypeScript','Dart (learning)'] },
+  { category: 'Frameworks & Libraries', tools: ['Vue.js', 'React', 'Nuxt.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'Flutter'] },
   { category: 'Tools & Platforms', tools: ['Git', 'GitHub', 'Firebase', 'VS Code', 'Figma', 'Postman'] },
   { category: 'Other Skills', tools: ['REST APIs', 'Responsive Design', 'SEO', 'Content Management System'] }
 ]
