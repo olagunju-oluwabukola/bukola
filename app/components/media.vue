@@ -8,7 +8,7 @@
       <a href="https://github.com/olagunju-oluwabukola" target="_blank"  class="w-12 h-12 bg-slate-700/50 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors">
         <Github :size="20" />
       </a>
-      <a href="https://www.linkedin.com/in/oluwabukola-olagunju-434512229/" target="_blank" class="w-12 h-12 bg-slate-700/50 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors">
+      <a href="www.linkedin.com/in/oluwabukola-olagunju-sussanah" target="_blank" class="w-12 h-12 bg-slate-700/50 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors">
         <Linkedin :size="20" />
       </a>
     </div>

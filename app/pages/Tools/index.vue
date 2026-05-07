@@ -3,7 +3,7 @@
     <div class="max-w-5xl mx-auto">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 text-center">Tools</h1>
       <p class="text-slate-300 text-center mb-12 max-w-2xl mx-auto">
-        Technologies and languages I use
+        Technologies, tools, and platforms I work with
       </p>
 
       <div class="grid md:grid-cols-2 gap-8">
@@ -21,9 +21,21 @@
 import ToolCategory from '../../components/category.vue'
 
 const toolCategories = [
-  { category: 'Languages', tools: [ 'JavaScript', 'TypeScript','Dart (learning)'] },
-  { category: 'Frameworks & Libraries', tools: ['Vue.js', 'React', 'Nuxt.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'Flutter'] },
-  { category: 'Tools & Platforms', tools: ['Git', 'GitHub', 'Firebase', 'VS Code', 'Figma', 'Postman'] },
-  { category: 'Other Skills', tools: ['REST APIs', 'Responsive Design', 'SEO', 'Content Management System'] }
+  {
+    category: 'Languages',
+    tools: ['JavaScript', 'TypeScript', 'Dart (learning)']
+  },
+  {
+    category: 'Frameworks & Libraries',
+    tools: ['Vue.js', 'React', 'Nuxt.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'Flutter', 'Pinia', 'Redux', 'Zustand', 'TanStack Query', 'Zod']
+  },
+  {
+    category: 'Tools & Platforms',
+    tools: ['Git', 'GitHub', 'Firebase', , 'Figma', 'Postman', 'Claude Code',]
+  },
+  {
+    category: 'Other Skills',
+    tools: ['REST APIs', 'Responsive Design', 'SEO', 'Web Performance', 'Component Architecture', 'Schema Validation', 'State Management', 'Code Review', 'CMS Integration']
+  }
 ]
 </script>

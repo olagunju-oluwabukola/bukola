@@ -64,9 +64,11 @@ import img3 from "@/assets/images/funiro.png"
 import img4 from "@/assets/images/nuxt store.png"
 import img5 from "@/assets/images/artsy.png"
 import img6 from "@/assets/images/haven.png"
+import img7 from "@/assets/images/resume.png"
 const projects = [
+{ name: "ResumeRX", tech: "React + Typescrip + Groq API", image: img7, github: "https://github.com/olagunju-oluwabukola/resume_writer", demo:"https://resume-writer-eight.vercel.app/" },
   { name: "Bookie", tech: "Nuxt.js + Firebase + Tailwind", image: img1, github: "https://github.com/olagunju-oluwabukola/Bookie", demo:"https://bookie-gold-two.vercel.app/" },
-  { name: "Fable Craft", tech: "Next.js + Grok AI + Tailwind", image: img2,  github: "https://github.com/olagunju-oluwabukola/story-forge", demo:"https://story-forge-eta.vercel.app/" },
+  { name: "Fable Craft", tech: "Next.js + Groq API + Tailwind", image: img2,  github: "https://github.com/olagunju-oluwabukola/story-forge", demo:"https://story-forge-eta.vercel.app/" },
   { name: "Furniro", tech: "Nuxt.js + Tailwind ", image:img3, github: "https://github.com/olagunju-oluwabukola/Furniro", demo:"https://furniro-ten-taupe.vercel.app/" },
   { name: "Nuxt Store", tech: "Nuxt + Tailwind", image: img4, github: "https://github.com/olagunju-oluwabukola/NuxtStore", demo:"https://nuxt-store-tawny.vercel.app/" },
   { name: "Artsy", tech: "Vue + Tailwind", image: img5, github: "https://github.com/olagunju-oluwabukola/Artsy", demo:"https://artsy-rhq2.vercel.app/"},

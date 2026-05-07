@@ -4,50 +4,60 @@
       <h1 class="text-4xl md:text-6xl font-bold mb-8 text-center">About Me</h1>
 
       <div class="grid md:grid-cols-2 gap-8 mb-12">
+        <!-- Who I Am -->
         <div class="bg-slate-800/50 backdrop-blur-md rounded-2xl p-8 border border-slate-700">
           <h2 class="text-2xl font-semibold mb-4">Who I Am</h2>
           <p class="text-slate-300 leading-relaxed mb-4">
-            I'm Oluwabukola, a passionate Frontend Web Developer with expertise in modern web technologies.
-            I'm dedicated to crafting responsive, high performance, pixel perfect web appliactions, and
-continuous learning.
+            I'm Oluwabukola, a Frontend Engineer who specialises in building fast, accessible, and
+            visually polished web applications. I bring a strong eye for detail and a systems-level
+            mindset to every project I work on.
           </p>
           <p class="text-slate-300 leading-relaxed">
-         I collaborate effectively with cross-functional teams to transform design mockups into scalable, maintainable, and functional code.
+            I thrive in collaborative environments — working closely with designers, backend engineers,
+            and product teams to ship experiences that are both technically sound and delightful to use.
           </p>
         </div>
 
+        <!-- What I Do -->
         <div class="bg-slate-800/50 backdrop-blur-md rounded-2xl p-8 border border-slate-700">
           <h2 class="text-2xl font-semibold mb-4">What I Do</h2>
           <ul class="space-y-3 text-slate-300">
             <li class="flex items-start gap-3">
               <span class="text-blue-400 mt-1">▹</span>
-              <span>Build responsive and modern web applications</span>
+              <span>Architect scalable component systems and front-end infrastructure that grow with your product</span>
             </li>
             <li class="flex items-start gap-3">
               <span class="text-blue-400 mt-1">▹</span>
-              <span>Optimize website performance and SEO</span>
+              <span>Build responsive, performant web applications with Vue.js, React, Nuxt, and Next.js</span>
             </li>
             <li class="flex items-start gap-3">
               <span class="text-blue-400 mt-1">▹</span>
-              <span>Write clean, maintainable code and participate in code reviews</span>
+              <span>Translate Figma designs into pixel-perfect, accessible UI with clean, maintainable code</span>
             </li>
             <li class="flex items-start gap-3">
               <span class="text-blue-400 mt-1">▹</span>
-              <span>Create seamless user experiences using Vue.js and React</span>
+              <span>Optimise for Core Web Vitals, SEO, and long-term codebase health</span>
             </li>
-             <li class="flex items-start gap-3">
+            <li class="flex items-start gap-3">
               <span class="text-blue-400 mt-1">▹</span>
-              <span>Apply systems thinking to translate Figma designs into scalable, reusable UI components</span>
+              <span>Contribute meaningfully in code reviews, technical discussions, and cross-functional planning</span>
             </li>
           </ul>
         </div>
       </div>
 
+      <!-- Skills -->
       <div class="bg-slate-800/50 backdrop-blur-md rounded-2xl p-8 border border-slate-700">
-        <h2 class="text-2xl font-semibold mb-6">Skills & Expertise</h2>
+        <h2 class="text-2xl font-semibold mb-2">Skills & Expertise</h2>
+        <p class="text-slate-400 text-sm mb-6">Technologies I work with day-to-day</p>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div v-for="skill in skills" :key="skill" class="bg-slate-700/50 rounded-lg p-3 text-center hover:bg-slate-700 transition-colors">
-            {{ skill }}
+          <div
+            v-for="skill in skills"
+            :key="skill.name"
+            class="bg-slate-700/50 rounded-lg p-3 text-center hover:bg-blue-500/20 hover:border-blue-500/50 border border-transparent transition-all duration-200 cursor-default"
+          >
+            <span class="text-lg mb-1 block">{{ skill.icon }}</span>
+            <span class="text-sm font-medium">{{ skill.name }}</span>
           </div>
         </div>
       </div>
@@ -56,5 +66,19 @@ continuous learning.
 </template>
 
 <script setup>
-const skills = ['JavaScript', 'Vue.js', 'React', 'Nuxt.js', 'Next.js', 'Tailwind CSS', 'HTML/CSS', 'Firebase', 'pinia']
+const skills = [
+  { name: 'JavaScript', icon: '⚡' },
+  { name: 'Vue.js', icon: '💚' },
+  { name: 'React', icon: '⚛️' },
+  { name: 'Nuxt.js', icon: '🔷' },
+  { name: 'Next.js', icon: '▲' },
+  { name: 'Tailwind CSS', icon: '🎨' },
+  { name: 'HTML & CSS', icon: '🧱' },
+  { name: 'Firebase', icon: '🔥' },
+  { name: 'Pinia', icon: '🍍' },
+  { name: 'Redux', icon: '🔄' },
+  { name: 'TanStack Query', icon: '🔃' },
+  { name: 'Zustand', icon: '🐻' },
+  { name: 'Zod', icon: '🛡️' },
+]
 </script>
